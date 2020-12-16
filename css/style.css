@@ -1,0 +1,839 @@
+.title{position: absolute;top: 5%;left:5%;}
+
+.sttitle{
+	/*stroke-dasharray: 250 250;
+	stroke-dashoffset: 250;*/ 
+
+	animation-name:titledraw;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	
+}
+
+
+@keyframes titledraw {
+		
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.title2{position: absolute;top: 25%;right:3%;}
+
+.sttitle{
+	/*stroke-dasharray: 250 250;
+	stroke-dashoffset: 250;*/ 
+
+	animation-name:draw;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes draw {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+
+.text{position: absolute;left: 5%;top: 17%;
+		animation-name: txt;
+		animation-duration: 5s;
+		animation-fill-mode: forwards;}
+@keyframes txt {
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+.text2{position: absolute;left: 5%;bottom: 10%;
+		animation-name: txt;
+		animation-duration: 5s;
+		animation-fill-mode: forwards;}
+@keyframes txt {
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+.text3{position: absolute;right: 30%;bottom: 6.5%;
+		animation-name: txt;
+		animation-duration: 5s;
+		animation-fill-mode: forwards;}
+@keyframes txt {
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+
+
+.line1{position: absolute;bottom: 0%;left: 15%;}
+.line1-1{
+	stroke-dasharray: 250 250;
+	stroke-dashoffset: 250; 
+
+	animation-name:draww;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;
+
+	}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.line2{position: absolute;bottom: 0%;left: 0%;}
+.stline2{
+	stroke-dasharray: 300 300;
+	stroke-dashoffset: 300; 
+
+	animation-name:draww;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+
+}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.line3{position: absolute;bottom: 0%;left: 33%;}
+.stline2{
+	stroke-dasharray: 300 300;
+	stroke-dashoffset: 300; 
+
+	animation-name:draww;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+
+}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.line4{position: absolute;bottom: 0%;left: 40%;}
+.stline2{
+	stroke-dasharray: 300 300;
+	stroke-dashoffset: 300; 
+
+	animation-name:draww;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+
+
+}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.line5{position: absolute;top: 0%;right: 4%;}
+.line1-1{
+	stroke-dasharray: 250 250;
+	stroke-dashoffset: 250; 
+
+	animation-name:draww;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	
+
+	}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+.line6{position: absolute;top: 30%;right: 0%;}
+.line1-1{
+	stroke-dasharray: 250 250;
+	stroke-dashoffset: 250; 
+
+	animation-name:draww;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	
+
+	}
+
+
+@keyframes draww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+
+.bgline1{position: absolute;bottom: 25%;left: 10%;opacity: 50%}
+.bgline1-1{
+	stroke-dasharray: 250 250;
+	stroke-dashoffset: 250; 
+
+	animation-name:drawww;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	}
+
+
+@keyframes drawww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+
+.bgline2{position: absolute;top:-7%;right: 5%;}
+.st2{
+	stroke-dasharray: 100 100;
+	stroke-dashoffset: 100; 
+
+	animation-name:drawwww;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes drawwww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+
+.bgline3{position: absolute;bottom: 4%;right: 10%;}
+.bgline3-2{
+	stroke-dasharray: 500 500;
+	stroke-dashoffset: 500; 
+
+	animation-name:drawwww;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;
+}
+
+
+@keyframes drawwww {
+	to {
+		stroke-dashoffset:0;
+	}
+
+}
+
+
+
+
+
+ .ball {
+  animation: slide 8s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+}
+.ball {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 80px;
+  position: absolute;
+  width: 80px;
+  opacity: 30%;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+    border:1px solid black;
+  }
+  50% {
+    left: 8%;
+    top: 20%;
+    border:1px solid #631300;
+  }
+  100% {
+    left: 35%;
+    top: 0;
+    border:1px solid black;
+  }
+}
+
+.ball2 {
+  animation: slideb 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+}
+.ball2 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 40px;
+  position: absolute;
+  width: 40px;
+  opacity: 20%
+}
+
+@keyframes slideb {
+  0% {
+    left: 50%;
+    top: 0%;
+  }
+ 
+  35% {
+    left: 43%;
+    top: 50%;
+  }
+  70% {
+    left: 50%;
+    top: 70%;
+  }
+  100% {
+    left: 40%;
+    top: 85%;
+  }
+}
+
+
+
+ .ball3 {
+  animation: slidec 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+
+}
+.ball3 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 60px;
+  position: absolute;
+  width: 60px;
+  opacity: 20%
+}
+
+@keyframes slidec {
+  0% {
+    right: 10%;
+    top: 5%;
+  }
+ 
+  35% {
+    right: 25%;
+    top: 60%;
+  }
+  70% {
+    right: 10%;
+    top: 75%;
+  }
+  100% {
+    right: 15%;
+    top: 90%;
+  }
+}
+
+.ball4 {
+  animation: slided 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+
+}
+.ball4 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 20px;
+  position: absolute;
+  width: 20px;
+  opacity: 15%
+}
+
+@keyframes slided {
+  0% {
+    right: 60%;
+    top: 5%;
+  }
+ 
+  35% {
+    right: 75%;
+    top:30%;
+  }
+  70% {
+    right: 70%;
+    top: 70%;
+  }
+  100% {
+    right: 90%;
+    top: 95%;
+  }
+}
+
+.ball5 {
+  animation: slidee 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+
+}
+.ball5 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+  opacity: 20%
+}
+
+@keyframes slidee {
+  0% {
+    left: 60%;
+    top: 0%;
+  }
+ 
+  35% {
+    left: 45%;
+    top:20%;
+  }
+  70% {
+    left: 70%;
+    top: 45%;
+  }
+  100% {
+    left: 45%;
+    top: 90%;
+  }
+}
+
+.ball6 {
+  animation: slidef 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+}
+.ball6 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 20px;
+  position: absolute;
+  width: 20px;
+  opacity: 20%
+}
+
+@keyframes slidef {
+  0% {
+    right: 10%;
+    top: 0%;
+  }
+ 
+  35% {
+    right: 35%;
+    top:30%;
+  }
+  70% {
+    right: 20%;
+    top: 65%;
+  }
+  100% {
+    right: 25%;
+    top: 75%;
+  }
+}
+
+
+.ball7 {
+  animation: slideg 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+}
+.ball7 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 60px;
+  position: absolute;
+  width: 60px;
+  opacity: 20%
+}
+
+@keyframes slideg {
+  0% {
+    left: 20%;
+    bottom: 5%;
+  }
+ 
+  35% {
+    left: 30%;
+    bottom:30%;
+  }
+  70% {
+    left: 50%;
+    bottom: 80%;
+  }
+  100% {
+    left: 20%;
+    bottom: 55%;
+  }
+}
+
+.ball8 {
+  animation: slideh 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+}
+.ball8 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 70px;
+  position: absolute;
+  width: 70px;
+  opacity: 15%
+}
+
+@keyframes slideh {
+  0% {
+    right: 20%;
+    top: 5%;
+  }
+ 
+  35% {
+    right: 30%;
+    top: 25%;
+  }
+  70% {
+    right:50%;
+    top: 65%;
+  }
+  100% {
+    right: 25%;
+    top: 45%;
+  }
+}
+
+.ball9 {
+  animation: slidei 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+}
+.ball9 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 40px;
+  position: absolute;
+  width: 40px;
+  opacity: 20%
+}
+
+@keyframes slidei {
+  0% {
+    right: 20%;
+    bottom: 5%;
+  }
+ 
+  35% {
+    right: 30%;
+    bottom: 25%;
+  }
+  70% {
+    right:50%;
+    bottom: 65%;
+  }
+  100% {
+    right: 25%;
+    bottom: 45%;
+  }
+}
+
+.ball10 {
+  animation: slidej 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+
+}
+.ball10 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 40px;
+  position: absolute;
+  width: 40px;
+  opacity: 20%
+}
+
+@keyframes slidej {
+  0% {
+    left: 5%;
+    bottom: 10%;
+  }
+ 
+  35% {
+    left: 20%;
+    bottom: 25%;
+  }
+  70% {
+    left:50%;
+    bottom: 45%;
+  }
+  100% {
+    left: 25%;
+    bottom: 75%;
+  }
+}
+
+
+.ball11 {
+  animation: slidek 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+}
+.ball11 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 20px;
+  position: absolute;
+  width: 20px;
+  opacity: 20%
+}
+
+@keyframes slidek {
+  0% {
+    left: 30%;
+    top: 0%;
+  }
+ 
+  35% {
+    left: 50%;
+    top: 25%;
+  }
+  70% {
+    left:40%;
+    top: 45%;
+  }
+  100% {
+    left: 75%;
+    top: 60%;
+  }
+}
+
+.ball12 {
+  animation: slidel 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+
+}
+.ball12 {
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+  opacity: 20%
+}
+
+@keyframes slidel {
+  0% {
+    left: 5%;
+    bottom: 0%;
+  }
+ 
+  35% {
+    left: 30%;
+    bottom: 10%;
+  }
+  70% {
+    left:20%;
+    bottom: 35%;
+  }
+  100% {
+    left: 10%;
+    bottom: 25%;
+  }
+}
+
+.ball13 {
+  animation: slidem 15s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+}
+.ball13 {
+  background: none;
+  border:1.5px solid black;
+  border-radius: 50%;
+  height: 100px;
+  position: absolute;
+  width: 100px;
+  opacity: 40%
+}
+
+@keyframes slidem {
+  0% {
+    right: 5%;
+    bottom: 0%;
+    border:1px solid black;
+  }
+ 
+  35% {
+    right: 30%;
+    bottom: 10%;
+    border:1px solid #005763;
+  }
+  70% {
+    right:20%;
+    bottom: 35%;
+    border:1px solid #007763;
+  }
+  100% {
+    right: 5%;
+    bottom: 20%;
+    border:1px solid black;
+  }
+}
+
+.ball14 {
+  animation: sliden 10s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate-reverse;
+
+}
+.ball14{
+  background: none;
+  border:1.5px solid black;
+  border-radius: 50%;
+  height: 80px;
+  position: absolute;
+  width: 80px;
+  opacity: 40%
+}
+
+@keyframes sliden {
+  0% {
+    right: 5%;
+    top: 0%;
+    border:1px solid black;
+  }
+ 
+  35% {
+    right: 30%;
+    top: 10%;
+    border:1px solid #180063;
+  }
+  70% {
+    right:20%;
+    top: 35%;
+    border:1px solid #003463;
+  }
+  100% {
+    right: 5%;
+    top: 20%;
+    border:1px solid black;
+  }
+}
+
+
+.ball15 {
+  animation: slideo 16s linear;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+}
+.ball15{
+  background: none;
+  border:1px solid black;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+  opacity: 20%
+}
+
+@keyframes slideo {
+  0% {
+    left: 5%;
+    top: 30%;
+  }
+ 
+  35% {
+    left: 30%;
+    top: 40%;
+  }
+  70% {
+    left:20%;
+    top: 55%;
+  }
+  100% {
+    left: 10%;
+    top: 20%;
+  }
+}
